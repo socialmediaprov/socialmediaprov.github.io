@@ -1,36 +1,63 @@
-<h2  id="crossreference" class="list">Cross reference for  classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-This section provides details for each class and property defined by .
+<h2  id="crossreference" class="list">Cross reference for The Provenance of Research Involving Social Media ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by The Provenance of Research Involving Social Media ontology.
 <div id="classes">
    <h3 id="classes" class="list">Classes</h3>
    <ul class="hlist">
       <li>
          <a href="#DataAnalysisActivity"
-            title="http://w3id.org/abdn/prism/ontology/DataAnalysisActivity">
-            <span>data analysis activity</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#DataAnalysisActivity">Data analysis activity</a>
+      </li>
+      <li>
+         <a href="#DataAnalysisMethod"
+            title="http://w3id.org/abdn/socialmedia/prism#DataAnalysisMethod">Data analysis method</a>
       </li>
       <li>
          <a href="#DataCollectionActivity"
-            title="http://w3id.org/abdn/prism/ontology/DataCollectionActivity">
-            <span>data collection activity</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#DataCollectionActivity">Data Collection Activity</a>
+      </li>
+      <li>
+         <a href="#DataCollectionTool"
+            title="http://w3id.org/abdn/socialmedia/prism#DataCollectionTool">Data Collection Tool</a>
       </li>
       <li>
          <a href="#DataPreparationActivity"
-            title="http://w3id.org/abdn/prism/ontology/DataPreparationActivity">
-            <span>data preparation activity</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#DataPreparationActivity">Data Preparation Activity</a>
+      </li>
+      <li>
+         <a href="#DataPreparationMethod"
+            title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
       </li>
    </ul>
    <div class="entity" id="DataAnalysisActivity">
-      <h3>data analysis activity<sup class="type-c" title="class">c</sup>
+      <h3>Data analysis activity<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/DataAnalysisActivity</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#DataAnalysisActivity</p>
+      <div class="comment">
+         <span class="markdown">The activity of performing some form of data analysis</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://w3id.org/abdn/socialmedia/prism#usedDataFrom">used data from</span>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#DataPreparationActivity"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationActivity">Data Preparation Activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="#analysisMethodUsed"
+               title="http://w3id.org/abdn/socialmedia/prism#analysisMethodUsed">analysis method used</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <span class="logic">only</span> 
+            <a href="#DataAnalysisMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataAnalysisMethod">Data analysis method</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dd>
             <span class="dotted" title="http://www.w3.org/ns/prov#used">used</span>
             <sup class="type-op" title="object property">op</sup> 
@@ -38,55 +65,83 @@ This section provides details for each class and property defined by .
             <span class="dotted" title="http://dbpedia.org/resource/dataset">dataset</span>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dd>
-            <span class="dotted" title="http://w3id.org/abdn/prism/ontology/usedDataFrom">used data from</span>
-            <sup class="type-op" title="object property">op</sup> 
-            <span class="logic">only</span> 
-            <a href="#DataPreparationActivity"
-               title="http://w3id.org/abdn/prism/ontology/DataPreparationActivity">data preparation activity</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/analysisMethodUsed">analysis method used</span>
-            <sup class="type-op" title="object property">op</sup> 
-            <span class="logic">only</span> 
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataAnalysisMethod">data analysis method</span>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
       </dl>
    </div>
-   <div class="entity" id="DataCollectionActivity">
-      <h3>data collection activity<sup class="type-c" title="class">c</sup>
+   <div class="entity" id="DataAnalysisMethod">
+      <h3>Data analysis method<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/DataCollectionActivity</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#DataAnalysisMethod</p>
+      <div class="comment">
+         <span class="markdown">A method utilised to analyse data.</span>
+      </div>
+   </div>
+   <div class="entity" id="DataCollectionActivity">
+      <h3>Data Collection Activity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#DataCollectionActivity</p>
+      <div class="comment">
+         <span class="markdown">The activity of collecting data.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
             <a href="#dataCollectionStarted"
-               title="http://w3id.org/abdn/prism/ontology/dataCollectionStarted">data collection started</a>
+               title="http://w3id.org/abdn/socialmedia/prism#dataCollectionStarted">data Collection Started</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 1</dd>
          <dd>
             <a href="#dataCollectionEnded"
-               title="http://w3id.org/abdn/prism/ontology/dataCollectionEnded">data collection ended</a>
+               title="http://w3id.org/abdn/socialmedia/prism#dataCollectionEnded">data Collection Ended</a>
             <sup class="type-dp" title="data property">dp</sup> 
             <span class="logic">exactly</span> 1</dd>
       </dl>
    </div>
-   <div class="entity" id="DataPreparationActivity">
-      <h3>data preparation activity<sup class="type-c" title="class">c</sup>
+   <div class="entity" id="DataCollectionTool">
+      <h3>Data Collection Tool<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/DataPreparationActivity</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#DataCollectionTool</p>
+      <div class="comment">
+         <span class="markdown">A (software) tool used to collect data.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#collectedUsing"
+               title="http://w3id.org/abdn/socialmedia/prism#collectedUsing">collected Using</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DataPreparationActivity">
+      <h3>Data Preparation Activity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#DataPreparationActivity</p>
+      <div class="comment">
+         <span class="markdown">The activity of preparing data, typically before or in-order-to perform some analysis.</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
+         <dd>
+            <a href="#preparationMethodUsed"
+               title="http://w3id.org/abdn/socialmedia/prism#preparationMethodUsed">preparation Method Used</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">only</span> 
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dd>
             <span class="dotted" title="http://www.w3.org/ns/prov#used">used</span>
             <sup class="type-op" title="object property">op</sup> 
@@ -94,14 +149,43 @@ This section provides details for each class and property defined by .
             <span class="dotted" title="http://dbpedia.org/resource/dataset">dataset</span>
             <sup class="type-c" title="class">c</sup>
          </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DataPreparationMethod">
+      <h3>Data Preparation Method<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod</p>
+      <div class="comment">
+         <span class="markdown">A method/technique used to prepare data in some way for analysis.</span>
+      </div>
+      <dl class="description">
+         <dt>has members</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/preparationMethodUsed">preparation method used</span>
-            <sup class="type-op" title="object property">op</sup> 
-            <span class="logic">only</span> 
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
-            <sup class="type-c" title="class">c</sup>
+            <a href="#collapseConsecutiveWhitespace"
+               title="http://w3id.org/abdn/socialmedia/prism#collapseConsecutiveWhitespace">Collapse consecutive whitespace</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#toDate" title="http://w3id.org/abdn/socialmedia/prism#toDate">Convert text to  date</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#toLowercase"
+               title="http://w3id.org/abdn/socialmedia/prism#toLowercase">Convert text to lowercase</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#toNumber" title="http://w3id.org/abdn/socialmedia/prism#toNumber">Convert text to number</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#toTitlecase"
+               title="http://w3id.org/abdn/socialmedia/prism#toTitlecase">Convert text to titlecase</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#toUppercase"
+               title="http://w3id.org/abdn/socialmedia/prism#toUppercase">Convert text to uppercase</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#toText" title="http://w3id.org/abdn/socialmedia/prism#toText">Convert to text</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#filterData"
+               title="http://w3id.org/abdn/socialmedia/prism#filterData">Filter data</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#removeData"
+               title="http://w3id.org/abdn/socialmedia/prism#removeData">Remove data</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#textTransformation"
+               title="http://w3id.org/abdn/socialmedia/prism#textTransformation">Transform text</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#trimLeadingTrailingWhitespace"
+               title="http://w3id.org/abdn/socialmedia/prism#trimLeadingTrailingWhitespace">Trim leading and trailing whitespace</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#unescapeHtmlEntities"
+               title="http://w3id.org/abdn/socialmedia/prism#unescapeHtmlEntities">Unescape HTML entities</a>
+            <sup class="type-ni" title="named individual">ni</sup>
          </dd>
       </dl>
    </div>
@@ -109,25 +193,41 @@ This section provides details for each class and property defined by .
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
+         <a href="#analysisMethodUsed"
+            title="http://w3id.org/abdn/socialmedia/prism#analysisMethodUsed">analysis method used</a>
+      </li>
+      <li>
          <a href="#collectedUsing"
-            title="http://w3id.org/abdn/prism/ontology/collectedUsing">
-            <span>collected using</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#collectedUsing">collected Using</a>
       </li>
    </ul>
-   <div class="entity" id="collectedUsing">
-      <h3>collected using<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="analysisMethodUsed">
+      <h3>analysis method used<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/collectedUsing</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#analysisMethodUsed</p>
+      <div class="comment">
+         <span class="markdown">Relationship between a data analysis activity and the analysis method used.</span>
+      </div>
+   </div>
+   <div class="entity" id="collectedUsing">
+      <h3>collected Using<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#collectedUsing</p>
+      <div class="comment">
+         <span class="markdown">Relationship between a dataset and a tool that was used to collect the data.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has range</dt>
             <dd>
-               <span class="dotted"
-                     title="http://w3id.org/abdn/prism/ontology/DataCollectionTool">data collection tool</span>
+               <a href="#DataCollectionTool"
+                  title="http://w3id.org/abdn/socialmedia/prism#DataCollectionTool">Data Collection Tool</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -137,41 +237,43 @@ This section provides details for each class and property defined by .
    <h3 id="dataproperties" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
+         <a href="#collectedFromService"
+            title="http://w3id.org/abdn/socialmedia/prism#collectedFromService">collected From Service</a>
+      </li>
+      <li>
          <a href="#dataCollectionEnded"
-            title="http://w3id.org/abdn/prism/ontology/dataCollectionEnded">
-            <span>data collection ended</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#dataCollectionEnded">data Collection Ended</a>
       </li>
       <li>
          <a href="#dataCollectionStarted"
-            title="http://w3id.org/abdn/prism/ontology/dataCollectionStarted">
-            <span>data collection started</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#dataCollectionStarted">data Collection Started</a>
+      </li>
+      <li>
+         <a href="#preparationMethodUsed"
+            title="http://w3id.org/abdn/socialmedia/prism#preparationMethodUsed">preparation Method Used</a>
       </li>
    </ul>
-   <div class="entity" id="dataCollectionEnded">
-      <h3>data collection ended<sup class="type-dp" title="data property">dp</sup>
+   <div class="entity" id="collectedFromService">
+      <h3>collected From Service<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/dataCollectionEnded</p>
-      <div class="description">
-         <dl>
-            <dt>has range</dt>
-            <dd>
-               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#dateTime">date time</span>
-            </dd>
-         </dl>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#collectedFromService</p>
+      <div class="comment">
+         <span class="markdown">Relationship between a dataset and a service/website that the data was collected from.</span>
       </div>
    </div>
-   <div class="entity" id="dataCollectionStarted">
-      <h3>data collection started<sup class="type-dp" title="data property">dp</sup>
+   <div class="entity" id="dataCollectionEnded">
+      <h3>data Collection Ended<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/dataCollectionStarted</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#dataCollectionEnded</p>
+      <div class="comment">
+         <span class="markdown">The date that the activity of collected data ended.</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has range</dt>
@@ -181,262 +283,326 @@ This section provides details for each class and property defined by .
          </dl>
       </div>
    </div>
+   <div class="entity" id="dataCollectionStarted">
+      <h3>data Collection Started<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#dataCollectionStarted</p>
+      <div class="comment">
+         <span class="markdown">The date that the activity of collected data started.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#date">date</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="preparationMethodUsed">
+      <h3>preparation Method Used<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#preparationMethodUsed</p>
+      <div class="comment">
+         <span class="markdown">Relationship between a data preparation activity and the preparation method/technique used.</span>
+      </div>
+   </div>
+</div><div id="annotationproperties">
+   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#http://www.w3.org/2004/02/skos/core#prefLabel" title="http://www.w3.org/2004/02/skos/core#prefLabel">
+            <span>pref label</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="http://www.w3.org/2004/02/skos/core#prefLabel">
+      <h3>pref label<sup class="type-ap" title="annotation property">ap</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2004/02/skos/core#prefLabel</p>
+   </div>
 </div><div id="namedindividuals">
    <h3 id="namedindividuals" class="list">Named Individuals</h3>
    <ul class="hlist">
       <li>
          <a href="#collapseConsecutiveWhitespace"
-            title="http://w3id.org/abdn/prism/ontology/collapseConsecutiveWhitespace">
-            <span>collapse consecutive whitespace</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#collapseConsecutiveWhitespace">Collapse consecutive whitespace</a>
       </li>
       <li>
-         <a href="#filterData" title="http://w3id.org/abdn/prism/ontology/filterData">
-            <span>filter data</span>
-         </a>
+         <a href="#toDate" title="http://w3id.org/abdn/socialmedia/prism#toDate">Convert text to  date</a>
       </li>
       <li>
-         <a href="#removeData" title="http://w3id.org/abdn/prism/ontology/removeData">
-            <span>remove data</span>
-         </a>
+         <a href="#toLowercase"
+            title="http://w3id.org/abdn/socialmedia/prism#toLowercase">Convert text to lowercase</a>
+      </li>
+      <li>
+         <a href="#toNumber" title="http://w3id.org/abdn/socialmedia/prism#toNumber">Convert text to number</a>
+      </li>
+      <li>
+         <a href="#toTitlecase"
+            title="http://w3id.org/abdn/socialmedia/prism#toTitlecase">Convert text to titlecase</a>
+      </li>
+      <li>
+         <a href="#toUppercase"
+            title="http://w3id.org/abdn/socialmedia/prism#toUppercase">Convert text to uppercase</a>
+      </li>
+      <li>
+         <a href="#toText" title="http://w3id.org/abdn/socialmedia/prism#toText">Convert to text</a>
+      </li>
+      <li>
+         <a href="#filterData"
+            title="http://w3id.org/abdn/socialmedia/prism#filterData">Filter data</a>
+      </li>
+      <li>
+         <a href="#removeData"
+            title="http://w3id.org/abdn/socialmedia/prism#removeData">Remove data</a>
       </li>
       <li>
          <a href="#textTransformation"
-            title="http://w3id.org/abdn/prism/ontology/textTransformation">
-            <span>text transformation</span>
-         </a>
-      </li>
-      <li>
-         <a href="#toDate" title="http://w3id.org/abdn/prism/ontology/toDate">
-            <span>to date</span>
-         </a>
-      </li>
-      <li>
-         <a href="#toLowercase" title="http://w3id.org/abdn/prism/ontology/toLowercase">
-            <span>to lowercase</span>
-         </a>
-      </li>
-      <li>
-         <a href="#toNumber" title="http://w3id.org/abdn/prism/ontology/toNumber">
-            <span>to number</span>
-         </a>
-      </li>
-      <li>
-         <a href="#toText" title="http://w3id.org/abdn/prism/ontology/toText">
-            <span>to text</span>
-         </a>
-      </li>
-      <li>
-         <a href="#toTitlecase" title="http://w3id.org/abdn/prism/ontology/toTitlecase">
-            <span>to titlecase</span>
-         </a>
-      </li>
-      <li>
-         <a href="#toUppercase" title="http://w3id.org/abdn/prism/ontology/toUppercase">
-            <span>to uppercase</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#textTransformation">Transform text</a>
       </li>
       <li>
          <a href="#trimLeadingTrailingWhitespace"
-            title="http://w3id.org/abdn/prism/ontology/trimLeadingTrailingWhitespace">
-            <span>trim leading trailing whitespace</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#trimLeadingTrailingWhitespace">Trim leading and trailing whitespace</a>
       </li>
       <li>
          <a href="#unescapeHtmlEntities"
-            title="http://w3id.org/abdn/prism/ontology/unescapeHtmlEntities">
-            <span>unescape html entities</span>
-         </a>
+            title="http://w3id.org/abdn/socialmedia/prism#unescapeHtmlEntities">Unescape HTML entities</a>
       </li>
    </ul>
    <div class="entity" id="collapseConsecutiveWhitespace">
-      <h3>collapse consecutive whitespace<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Collapse consecutive whitespace<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/collapseConsecutiveWhitespace</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#collapseConsecutiveWhitespace</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which multiple whitespace characters are reduced to a single character.   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="filterData">
-      <h3>filter data<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/filterData</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="removeData">
-      <h3>remove data<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/removeData</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="textTransformation">
-      <h3>text transformation<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/textTransformation</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="toDate">
-      <h3>to date<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Convert text to  date<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/toDate</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#toDate</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which the type of a datum is changed from text to date.   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="toLowercase">
-      <h3>to lowercase<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Convert text to lowercase<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/toLowercase</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#toLowercase</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which text is converted to lowercase.   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="toNumber">
-      <h3>to number<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Convert text to number<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/toNumber</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#toNumber</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which the type of a datum is changed from text to number.   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="toText">
-      <h3>to text<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/toText</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="toTitlecase">
-      <h3>to titlecase<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Convert text to titlecase<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/toTitlecase</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#toTitlecase</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which text is converted to title case.   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="toUppercase">
-      <h3>to uppercase<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Convert text to uppercase<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/toUppercase</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#toUppercase</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which text is converted to uppercase.   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="toText">
+      <h3>Convert to text<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#toText</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which the type of a datum is changed to text.   Based on transformation of the same name in OpenRefine.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="filterData">
+      <h3>Filter data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#filterData</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which a subset of a a dataset is created based on filtering data in the original.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="removeData">
+      <h3>Remove data<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#removeData</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which data is removed from a dataset.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="textTransformation">
+      <h3>Transform text<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#textTransformation</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which text is transformed.   Based on transformation of the same name in OpenRefine.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="trimLeadingTrailingWhitespace">
-      <h3>trim leading trailing whitespace<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Trim leading and trailing whitespace<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/trimLeadingTrailingWhitespace</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#trimLeadingTrailingWhitespace</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which leading and trailing whitespace are removed from a piece of text.  Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
    <div class="entity" id="unescapeHtmlEntities">
-      <h3>unescape html entities<sup class="type-ni" title="named individual">ni</sup>
+      <h3>Unescape HTML entities<sup class="type-ni" title="named individual">ni</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://w3id.org/abdn/prism/ontology/unescapeHtmlEntities</p>
+         <strong>IRI:</strong> http://w3id.org/abdn/socialmedia/prism#unescapeHtmlEntities</p>
+      <div class="comment">
+         <span class="markdown">Data preparation method in which escaped HTML characters (e.g. &amp;amp;amp;) are unescaped (e..g back to &amp;amp;).   Based on transformation of the same label in OpenRefine.</span>
+      </div>
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <span class="dotted"
-                  title="http://w3id.org/abdn/prism/ontology/DataPreparationMethod">data preparation method</span>
+            <a href="#DataPreparationMethod"
+               title="http://w3id.org/abdn/socialmedia/prism#DataPreparationMethod">Data Preparation Method</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
