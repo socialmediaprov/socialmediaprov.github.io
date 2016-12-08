@@ -56,7 +56,7 @@
     <dc:description xml:lang="en">This ontology is designed to capture provenance meta-data describing the use of social media data in research projects.</dc:description>
     <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milan Markovic</dc:creator>
     <rdfs:label>The Provenance of Research Involving Social Media ontology</rdfs:label>
-    <ns1:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <ns1:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copyright © 2015 University of Aberdeen</dc:rights>
     <rdfs:comment xml:lang="en">This ontology is designed to capture provenance meta-data describing the use of social media data in research projects.</rdfs:comment>
   </rdf:Description>
