@@ -112,7 +112,7 @@ _:AX2dX2fe0ec5fX3aX158de32f70eX3aXX2dX7ff9 <http://www.w3.org/1999/02/22-rdf-syn
 <http://w3id.org/abdn/socialmedia/prism#> <http://purl.org/dc/elements/1.1/description> "This ontology is designed to capture provenance meta-data describing the use of social media data in research projects."@en .
 <http://w3id.org/abdn/socialmedia/prism#> <http://purl.org/dc/elements/1.1/creator> "Milan Markovic"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://w3id.org/abdn/socialmedia/prism#> <http://www.w3.org/2000/01/rdf-schema#label> "The Provenance of Research Involving Social Media ontology" .
-<http://w3id.org/abdn/socialmedia/prism#> <http://web.resource.org/cc/license> <http://creativecommons.org/licenses/by-sa/3.0/> .
+<http://w3id.org/abdn/socialmedia/prism#> <http://web.resource.org/cc/license> <https://creativecommons.org/licenses/by/4.0/> .
 <http://w3id.org/abdn/socialmedia/prism#> <http://purl.org/dc/elements/1.1/rights> "Copyright \u00A9 2015 University of Aberdeen"^^<http://www.w3.org/2001/XMLSchema#string> .
 <http://w3id.org/abdn/socialmedia/prism#> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is designed to capture provenance meta-data describing the use of social media data in research projects."@en .
 _:AX2dX2fe0ec5fX3aX158de32f70eX3aXX2dX7ffc <http://www.w3.org/2002/07/owl#allValuesFrom> <http://dbpedia.org/resource/dataset> .
